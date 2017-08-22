@@ -1,0 +1,32 @@
+/** CSS Page for first hw assignment**/
+* {
+	background-image: url(../images/organic-tiles.png);
+}
+
+body #ContactPage, #IndexPage, #PortfolioPage  {
+	background: url(../images/organic-tiles.png);
+}
+
+div .Header {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.ConnectWithMe {
+	position: relative;
+	height: 200px;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.AboutMe {
+	background-color: #ffffff;
+
+}
+
+.footer {
+	background-color: #666666;
+}
