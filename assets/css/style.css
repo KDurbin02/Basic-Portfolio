@@ -1,32 +1,99 @@
 /** CSS Page for first hw assignment**/
 * {
+  box-sizing: content-box;
+}
+body {
 	background-image: url(../images/organic-tiles.png);
-}
+	background-color: #777777;
+	font-size: 25px;
+	line-height: 32px;
+	width: 1200px;
+	}
 
-body #ContactPage, #IndexPage, #PortfolioPage  {
-	background: url(../images/organic-tiles.png);
-}
-
-div .Header {
-	background-color: #ffffff;
-	color: #4aaaa5;
-	font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-
-.ConnectWithMe {
+/***Heading Styling****/
+header {
+	width: 100%;
+	height: 80px;
+	margin: 0px 0px 20px 0px;
+	background: #FFFFFF;
+	border: 1px solid #cccccc;
+	padding: 30px;
+	right-padding: 20px;
+	}
+	
+#name {
 	position: relative;
-	height: 200px;
-	padding: 20px;
-	margin-bottom: 20px;
-	text-align: center;
-
+	float: left;
+	border: 1px solid #cccccc;
+	right-margin: 50px;
+	padding: 30px;
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #FFFFFF;
+	}	
+.navigation {
+	position: static;
+	left: -30px;
 }
 
-.AboutMe {
+.navigation li:not(:first-child):before {
+    content: " | ";
+}
+ul {
+	list-style-type: none;
+	text-align: right;
+	}
+li {
+	border: none;
+	display: inline;
+
+}
+/****Generic Page Body Styling*****/
+h1, h2 {
+	color: #4aaaa5;
+}
+.page_body {
+	position: relative;
+	width: 100%;
+}
+.page_content {
+	position: relative;
+	float: left;
+	width: 650px;
+	border: 1px solid #dddddd;
+	margin: 10px 100px 10px 30px;
+	padding: 28px;
+	background: #ffffff;
+	text-align: left;
+}
+#connect {
+	position: relative;
+	float: left;
+	width: 270px;
+	border: 1px solid #dddddd;
+	margin: 10px 20px 10px 10px; 
+	padding: 30px;
+	color: #4aaaa5;
 	background-color: #ffffff;
-
+	text-align: center;
+}
+/****Index Page Styling*****/
+#aboutme {
+	
 }
 
-.footer {
+/*****Portfolio Page Styling*****/
+table, th, td {
+   border: 38px solid white;
+}
+
+/*****Footer Styling****/
+footer {
+	position: static;
+	clear: both;	
+	width: 100%;
+	border: 
+	margin: auto;
 	background-color: #666666;
-}
+	font: #ffffff;
+	}
