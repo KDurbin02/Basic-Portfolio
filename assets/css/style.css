@@ -98,9 +98,8 @@ table, th, td {
 
 /*****Footer Styling****/
 footer {
-	position: static;
 	clear: both;	
-	width: 100%; 
+	width: 1200px; 
 	height: 50px;
 	padding: 32px 0px;
 	background-color: #666666;
