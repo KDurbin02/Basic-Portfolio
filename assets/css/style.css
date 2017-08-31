@@ -1,6 +1,6 @@
 /** CSS Page for first hw assignment**/
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 body {
 	background-image: url(../images/organic-tiles.png);
@@ -18,16 +18,17 @@ header {
 	margin: 0px 0px 20px 0px;
 	background: #FFFFFF;
 	border: 1px solid #cccccc;
-	padding: 30px 30px 15px 30px;
+	padding: 0px 30px 15px 30px;
 	}
 	
 #name {
 	position: relative;
 	float: left;
+	height: 80px;
 	border: 1px solid #cccccc;
 	right-margin: 50px;
 	padding: 30px;
-	background: #4aaaa5;
+	background: #4aaaa5 ;
 	font-size: 24px;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color: #FFFFFF;
@@ -93,7 +94,8 @@ h1, h2 {
 
 /*****Portfolio Page Styling*****/
 table, th, td {
-   border: 38px solid white;
+	box-sizing: content-box;
+   border: 19px solid white;
 }
 .table {
 	float: left;
@@ -114,10 +116,11 @@ table, th, td {
 footer {
 	clear: both;	
 	width: 100%; 
-	height: 50px;
+	height: 40px;
 	padding: 32px 10px;
 	background-color: #666666;
 	color: #ffffff;
 	font-size: x-small;
 	text-align: center;
+	border-top: 10px solid #4aaaa5;
 	}
